@@ -1,0 +1,81 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.menu
+{
+    background-color: white;
+  /*box-shadow: 0px 4px 15px lightblue;*/ //problem
+}
+.menu2
+{
+    float: right;
+}
+.nav1
+{
+    list-style: none;
+}
+.homebar
+{
+    display: inline;
+     
+}
+.homebar a{
+    text-decoration: none;
+    padding: 26px 10px;
+    text-transform: uppercase;
+	color: #424242;
+	line-height: 29px;
+   
+}
+.div1{
+ background: white;
+ width: 25%;
+ display: inline-block;
+ float: left;
+ margin-right:20px;
+ padding-top: 45px;
+
+}
+.img1
+{
+    width: 90px;
+    height: 45px;
+    padding-left: 50px;
+    padding-top: 14px; 
+}
+.div
+{
+    padding-left: 250px;
+}
+
+.b-img{
+    background: url(../images/pexels-photo-248797.jpeg);
+    background-size: cover;
+    padding: 120px ;
+    position: relative;
+    margin-top: 340px;
+}
+.b-color {
+    background-image: -webkit-linear-gradient(0deg, #63c4e2 0%, #859dee80 100%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.8;
+}
+.b-color .title {
+    text-align: center;
+    margin: 0;
+    font-size: 43px;
+    color: rgb(245, 243, 243);
+}
+.b-color p {
+    text-align: center;
+    color: black;
+}
+.center {
+    padding: 90px 4px;
+}
